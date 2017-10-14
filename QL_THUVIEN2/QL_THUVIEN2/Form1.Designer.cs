@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tphome = new System.Windows.Forms.TabPage();
             this.paneldangnhap = new System.Windows.Forms.Panel();
@@ -173,6 +174,7 @@
             // 
             this.bttdndangnhap.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bttdndangnhap.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bttdndangnhap.Image = global::QL_THUVIEN2.Properties.Resources.unlock;
             this.bttdndangnhap.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.bttdndangnhap.Location = new System.Drawing.Point(300, 7);
             this.bttdndangnhap.Name = "bttdndangnhap";
@@ -182,6 +184,7 @@
             this.bttdndangnhap.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.bttdndangnhap.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.bttdndangnhap.UseVisualStyleBackColor = true;
+            this.bttdndangnhap.Click += new System.EventHandler(this.button22_Click);
             // 
             // txtdntaikhoan
             // 
@@ -191,6 +194,7 @@
             this.txtdntaikhoan.Size = new System.Drawing.Size(154, 26);
             this.txtdntaikhoan.TabIndex = 0;
             this.txtdntaikhoan.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtdntaikhoan.TextChanged += new System.EventHandler(this.txtdntaikhoan_TextChanged);
             // 
             // label10
             // 
@@ -218,6 +222,7 @@
             // 
             // button5
             // 
+            this.button5.Image = global::QL_THUVIEN2.Properties.Resources.business_user_edit;
             this.button5.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button5.Location = new System.Drawing.Point(89, 5);
             this.button5.Name = "button5";
@@ -227,6 +232,7 @@
             this.button5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // label1
             // 
@@ -242,6 +248,7 @@
             // 
             // button3
             // 
+            this.button3.Image = global::QL_THUVIEN2.Properties.Resources.delete;
             this.button3.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button3.Location = new System.Drawing.Point(250, 2);
             this.button3.Name = "button3";
@@ -251,9 +258,11 @@
             this.button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click_1);
             // 
             // button2
             // 
+            this.button2.Image = global::QL_THUVIEN2.Properties.Resources._lock;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button2.Location = new System.Drawing.Point(172, 5);
             this.button2.Name = "button2";
@@ -263,10 +272,13 @@
             this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // bttdangnhap
             // 
             this.bttdangnhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bttdangnhap.Image = global::QL_THUVIEN2.Properties.Resources.unlock;
+            this.bttdangnhap.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.bttdangnhap.Location = new System.Drawing.Point(7, 4);
             this.bttdangnhap.Name = "bttdangnhap";
             this.bttdangnhap.Size = new System.Drawing.Size(76, 73);
@@ -275,6 +287,7 @@
             this.bttdangnhap.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.bttdangnhap.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.bttdangnhap.UseVisualStyleBackColor = true;
+            this.bttdangnhap.Click += new System.EventHandler(this.button1_Click);
             // 
             // tpquanly
             // 
@@ -304,6 +317,7 @@
             // 
             // button4
             // 
+            this.button4.Image = global::QL_THUVIEN2.Properties.Resources.window_search;
             this.button4.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button4.Location = new System.Drawing.Point(171, 4);
             this.button4.Name = "button4";
@@ -313,6 +327,7 @@
             this.button4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // label5
             // 
@@ -328,6 +343,7 @@
             // 
             // button11
             // 
+            this.button11.Image = global::QL_THUVIEN2.Properties.Resources.home_search;
             this.button11.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button11.Location = new System.Drawing.Point(89, 4);
             this.button11.Name = "button11";
@@ -337,9 +353,11 @@
             this.button11.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button11.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // button13
             // 
+            this.button13.Image = global::QL_THUVIEN2.Properties.Resources.folder_search;
             this.button13.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button13.Location = new System.Drawing.Point(3, 4);
             this.button13.Name = "button13";
@@ -349,6 +367,7 @@
             this.button13.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button13.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // panelqldocgia
             // 
@@ -372,6 +391,7 @@
             // 
             // button12
             // 
+            this.button12.Image = global::QL_THUVIEN2.Properties.Resources.users__2_;
             this.button12.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button12.Location = new System.Drawing.Point(2, 3);
             this.button12.Name = "button12";
@@ -381,6 +401,7 @@
             this.button12.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button12.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // panelqlnhanvien
             // 
@@ -397,6 +418,7 @@
             // 
             // button6
             // 
+            this.button6.Image = global::QL_THUVIEN2.Properties.Resources.business_user;
             this.button6.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button6.Location = new System.Drawing.Point(171, 3);
             this.button6.Name = "button6";
@@ -406,6 +428,7 @@
             this.button6.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // label3
             // 
@@ -421,6 +444,7 @@
             // 
             // button7
             // 
+            this.button7.Image = global::QL_THUVIEN2.Properties.Resources.business_user;
             this.button7.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button7.Location = new System.Drawing.Point(85, 1);
             this.button7.Name = "button7";
@@ -430,9 +454,11 @@
             this.button7.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 
+            this.button8.Image = global::QL_THUVIEN2.Properties.Resources.process_lock;
             this.button8.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button8.Location = new System.Drawing.Point(-2, 3);
             this.button8.Name = "button8";
@@ -442,6 +468,7 @@
             this.button8.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button8.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // tpmuontra
             // 
@@ -477,6 +504,7 @@
             // 
             // button15
             // 
+            this.button15.Image = global::QL_THUVIEN2.Properties.Resources.page_info;
             this.button15.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button15.Location = new System.Drawing.Point(89, 4);
             this.button15.Name = "button15";
@@ -485,9 +513,11 @@
             this.button15.Text = "Return-card";
             this.button15.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // button16
             // 
+            this.button16.Image = global::QL_THUVIEN2.Properties.Resources.page_edit;
             this.button16.Location = new System.Drawing.Point(7, 3);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(76, 73);
@@ -496,6 +526,7 @@
             this.button16.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button16.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
             // tpbaocao
             // 
@@ -530,6 +561,7 @@
             // 
             // button21
             // 
+            this.button21.Image = global::QL_THUVIEN2.Properties.Resources.window_search;
             this.button21.Location = new System.Drawing.Point(7, 3);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(76, 73);
@@ -537,6 +569,7 @@
             this.button21.Text = "Search";
             this.button21.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button21.UseVisualStyleBackColor = true;
+            this.button21.Click += new System.EventHandler(this.button21_Click);
             // 
             // panel5
             // 
@@ -564,6 +597,7 @@
             // 
             this.button9.BackColor = System.Drawing.Color.Ivory;
             this.button9.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.Image = global::QL_THUVIEN2.Properties.Resources.comment_edit;
             this.button9.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button9.Location = new System.Drawing.Point(6, 23);
             this.button9.Name = "button9";
@@ -572,6 +606,7 @@
             this.button9.Text = "Rules of library";
             this.button9.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click_1);
             // 
             // paneldsnv
             // 
@@ -600,6 +635,7 @@
             this.paneldsnv.Size = new System.Drawing.Size(1005, 521);
             this.paneldsnv.TabIndex = 1;
             this.paneldsnv.Visible = false;
+            this.paneldsnv.Paint += new System.Windows.Forms.PaintEventHandler(this.paneldsnv_Paint);
             // 
             // ttcngioitinh
             // 
@@ -626,6 +662,7 @@
             // bttqlnvxoa
             // 
             this.bttqlnvxoa.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.bttqlnvxoa.Image = global::QL_THUVIEN2.Properties.Resources.business_user_delete;
             this.bttqlnvxoa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bttqlnvxoa.Location = new System.Drawing.Point(586, 454);
             this.bttqlnvxoa.Name = "bttqlnvxoa";
@@ -634,11 +671,13 @@
             this.bttqlnvxoa.Text = "Delete";
             this.bttqlnvxoa.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.bttqlnvxoa.UseVisualStyleBackColor = true;
+            this.bttqlnvxoa.Click += new System.EventHandler(this.button23_Click_1);
             // 
             // button1
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button1.Image = global::QL_THUVIEN2.Properties.Resources.business_user_edit;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.Location = new System.Drawing.Point(319, 454);
             this.button1.Name = "button1";
@@ -647,6 +686,7 @@
             this.button1.Text = "Edit";
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // dgvnvdanhsach
             // 
@@ -665,6 +705,8 @@
             this.dgvnvdanhsach.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvnvdanhsach.Size = new System.Drawing.Size(931, 232);
             this.dgvnvdanhsach.TabIndex = 3;
+            this.dgvnvdanhsach.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvnvdanhsach_CellContentClick);
+            this.dgvnvdanhsach.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvnvdanhsach_RowEnter);
             // 
             // dgvdsnvma
             // 
@@ -709,6 +751,7 @@
             this.ttcnsdt.Name = "ttcnsdt";
             this.ttcnsdt.Size = new System.Drawing.Size(200, 26);
             this.ttcnsdt.TabIndex = 16;
+            this.ttcnsdt.TextChanged += new System.EventHandler(this.ttcnsdt_TextChanged);
             // 
             // ttcndiachi
             // 
@@ -817,6 +860,7 @@
             // 
             // panel3
             // 
+            this.panel3.BackgroundImage = global::QL_THUVIEN2.Properties.Resources.ung_dung_thiet_bi_ma_vach_vao_thu_vien;
             this.panel3.Controls.Add(this.paneldsnv);
             this.panel3.Location = new System.Drawing.Point(178, 139);
             this.panel3.Name = "panel3";
@@ -833,8 +877,10 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.tabControl1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "LIBRARY MANAGEMENT";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl1.ResumeLayout(false);
             this.tphome.ResumeLayout(false);
             this.paneldangnhap.ResumeLayout(false);
