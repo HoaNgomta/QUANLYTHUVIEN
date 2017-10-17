@@ -52,11 +52,13 @@
             this.checkBox1.TabIndex = 31;
             this.checkBox1.Text = "Show PassWord";
             this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.Black;
+            this.button2.Image = global::QL_THUVIEN2.Properties.Resources.users_delete;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button2.Location = new System.Drawing.Point(307, 304);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
@@ -66,6 +68,7 @@
             this.button2.Text = "Exit";
             this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // textBox3
             // 
@@ -151,6 +154,7 @@
             // button3
             // 
             this.button3.ForeColor = System.Drawing.Color.Black;
+            this.button3.Image = global::QL_THUVIEN2.Properties.Resources.users_add;
             this.button3.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button3.Location = new System.Drawing.Point(192, 304);
             this.button3.Margin = new System.Windows.Forms.Padding(4);
@@ -160,6 +164,7 @@
             this.button3.Text = "Save";
             this.button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // FormTaoTaiKhoan
             // 
@@ -182,6 +187,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormTaoTaiKhoan";
             this.Text = "Create account";
+            this.Load += new System.EventHandler(this.FormTaoTaiKhoan_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

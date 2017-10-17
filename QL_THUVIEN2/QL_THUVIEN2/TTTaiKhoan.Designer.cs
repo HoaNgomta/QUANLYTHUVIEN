@@ -29,17 +29,17 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button7 = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.lbltaikhoan = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.txtmklai = new System.Windows.Forms.TextBox();
             this.txtmkmoi = new System.Windows.Forms.TextBox();
             this.txtmkcu = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,17 +62,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(431, 370);
             this.panel1.TabIndex = 12;
-            // 
-            // button7
-            // 
-            this.button7.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(231, 284);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(133, 57);
-            this.button7.TabIndex = 25;
-            this.button7.Text = "Exit";
-            this.button7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button7.UseVisualStyleBackColor = true;
             // 
             // checkBox1
             // 
@@ -107,16 +96,6 @@
             this.label4.Size = new System.Drawing.Size(87, 22);
             this.label4.TabIndex = 20;
             this.label4.Text = "Account :";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(41, 284);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(133, 57);
-            this.button1.TabIndex = 18;
-            this.button1.Text = "Change";
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // txtmklai
             // 
@@ -181,6 +160,31 @@
             this.label1.TabIndex = 12;
             this.label1.Text = "Old Password";
             // 
+            // button7
+            // 
+            this.button7.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.Image = global::QL_THUVIEN2.Properties.Resources.process_delete;
+            this.button7.Location = new System.Drawing.Point(231, 284);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(133, 57);
+            this.button7.TabIndex = 25;
+            this.button7.Text = "Exit";
+            this.button7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // button1
+            // 
+            this.button1.Image = global::QL_THUVIEN2.Properties.Resources.process_down1;
+            this.button1.Location = new System.Drawing.Point(41, 284);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(133, 57);
+            this.button1.TabIndex = 18;
+            this.button1.Text = "Change";
+            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // TTTaiKhoan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
@@ -193,6 +197,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "TTTaiKhoan";
             this.Text = "CHANGE ACCOUNT";
+            this.Load += new System.EventHandler(this.TTTaiKhoan_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
