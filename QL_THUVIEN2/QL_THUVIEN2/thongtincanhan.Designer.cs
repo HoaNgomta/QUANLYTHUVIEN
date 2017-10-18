@@ -33,8 +33,6 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.txtDiaChi = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.txtGIOITINH = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtns = new System.Windows.Forms.DateTimePicker();
@@ -53,6 +51,8 @@
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtDiaChi = new System.Windows.Forms.TextBox();
             this.groupBox3.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -76,6 +76,7 @@
             // 
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button5.Image = global::QL_THUVIEN2.Properties.Resources.business_user_edit;
             this.button5.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button5.Location = new System.Drawing.Point(31, 33);
             this.button5.Name = "button5";
@@ -84,6 +85,7 @@
             this.button5.Text = "Edit";
             this.button5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // groupBox1
             // 
@@ -128,20 +130,6 @@
             this.groupBox2.Size = new System.Drawing.Size(416, 187);
             this.groupBox2.TabIndex = 29;
             this.groupBox2.TabStop = false;
-            // 
-            // txtDiaChi
-            // 
-            this.txtDiaChi.Location = new System.Drawing.Point(157, 55);
-            this.txtDiaChi.Name = "txtDiaChi";
-            this.txtDiaChi.Size = new System.Drawing.Size(200, 26);
-            this.txtDiaChi.TabIndex = 21;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(157, 19);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(200, 26);
-            this.textBox1.TabIndex = 20;
             // 
             // txtGIOITINH
             // 
@@ -215,6 +203,7 @@
             this.label13.Size = new System.Drawing.Size(62, 21);
             this.label13.TabIndex = 1;
             this.label13.Text = "Name :";
+            this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
             // dataGridView1
             // 
@@ -233,6 +222,8 @@
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(845, 101);
             this.dataGridView1.TabIndex = 33;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick_1);
+            this.dataGridView1.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_RowEnter);
             // 
             // Column1
             // 
@@ -299,6 +290,20 @@
             this.panel1.Size = new System.Drawing.Size(899, 107);
             this.panel1.TabIndex = 34;
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(157, 19);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(200, 26);
+            this.textBox1.TabIndex = 20;
+            // 
+            // txtDiaChi
+            // 
+            this.txtDiaChi.Location = new System.Drawing.Point(157, 55);
+            this.txtDiaChi.Name = "txtDiaChi";
+            this.txtDiaChi.Size = new System.Drawing.Size(200, 26);
+            this.txtDiaChi.TabIndex = 21;
+            // 
             // thongtincanhan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -311,6 +316,7 @@
             this.Controls.Add(this.groupBox2);
             this.Name = "thongtincanhan";
             this.Text = "thongtincanhan";
+            this.Load += new System.EventHandler(this.thongtincanhan_Load);
             this.groupBox3.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
