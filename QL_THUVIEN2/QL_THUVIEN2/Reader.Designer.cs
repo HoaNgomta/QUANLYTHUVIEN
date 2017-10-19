@@ -29,10 +29,6 @@
         private void InitializeComponent()
         {
             this.paneldg = new System.Windows.Forms.Panel();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.dgvchitiet = new System.Windows.Forms.DataGridView();
-            this.masach = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.none = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button2 = new System.Windows.Forms.Button();
             this.txtgt = new System.Windows.Forms.TextBox();
             this.txtns = new System.Windows.Forms.DateTimePicker();
@@ -57,10 +53,14 @@
             this.label13 = new System.Windows.Forms.Label();
             this.txtttcnten = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
+            this.dgvchitiet = new System.Windows.Forms.DataGridView();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.masach = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.none = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.paneldg.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvchitiet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvdsdg)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvchitiet)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // paneldg
@@ -92,43 +92,10 @@
             this.paneldg.TabIndex = 3;
             this.paneldg.Visible = false;
             // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.dgvchitiet);
-            this.groupBox1.Location = new System.Drawing.Point(664, 211);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(335, 307);
-            this.groupBox1.TabIndex = 28;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Chi tiết mượn sách";
-            // 
-            // dgvchitiet
-            // 
-            this.dgvchitiet.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvchitiet.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.masach,
-            this.none});
-            this.dgvchitiet.Location = new System.Drawing.Point(17, 25);
-            this.dgvchitiet.Name = "dgvchitiet";
-            this.dgvchitiet.Size = new System.Drawing.Size(293, 247);
-            this.dgvchitiet.TabIndex = 27;
-            // 
-            // masach
-            // 
-            this.masach.DataPropertyName = "Masach";
-            this.masach.HeaderText = "Mã sách";
-            this.masach.Name = "masach";
-            // 
-            // none
-            // 
-            this.none.DataPropertyName = "tongSM";
-            this.none.HeaderText = "Số lượng mượn";
-            this.none.Name = "none";
-            this.none.Width = 150;
-            // 
             // button2
             // 
             this.button2.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.button2.Image = global::QL_THUVIEN2.Properties.Resources.rewind;
             this.button2.Location = new System.Drawing.Point(649, 515);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(106, 59);
@@ -136,6 +103,7 @@
             this.button2.Text = "Exit";
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // txtgt
             // 
@@ -162,6 +130,7 @@
             // bttxoa
             // 
             this.bttxoa.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.bttxoa.Image = global::QL_THUVIEN2.Properties.Resources.users_delete1;
             this.bttxoa.Location = new System.Drawing.Point(479, 515);
             this.bttxoa.Name = "bttxoa";
             this.bttxoa.Size = new System.Drawing.Size(106, 59);
@@ -169,10 +138,12 @@
             this.bttxoa.Text = "Delete";
             this.bttxoa.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.bttxoa.UseVisualStyleBackColor = true;
+            this.bttxoa.Click += new System.EventHandler(this.bttqlnvxoa_Click_1);
             // 
             // bttsua
             // 
             this.bttsua.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.bttsua.Image = global::QL_THUVIEN2.Properties.Resources.users_edit;
             this.bttsua.Location = new System.Drawing.Point(298, 515);
             this.bttsua.Name = "bttsua";
             this.bttsua.Size = new System.Drawing.Size(106, 59);
@@ -180,10 +151,12 @@
             this.bttsua.Text = "Edit";
             this.bttsua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.bttsua.UseVisualStyleBackColor = true;
+            this.bttsua.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // bttthemmoi
             // 
             this.bttthemmoi.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.bttthemmoi.Image = global::QL_THUVIEN2.Properties.Resources.users_add;
             this.bttthemmoi.Location = new System.Drawing.Point(110, 515);
             this.bttthemmoi.Name = "bttthemmoi";
             this.bttthemmoi.Size = new System.Drawing.Size(129, 59);
@@ -191,6 +164,7 @@
             this.bttthemmoi.Text = "Add";
             this.bttthemmoi.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.bttthemmoi.UseVisualStyleBackColor = true;
+            this.bttthemmoi.Click += new System.EventHandler(this.bttttcnluu_Click_1);
             // 
             // dgvdsdg
             // 
@@ -210,6 +184,7 @@
             this.dgvdsdg.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvdsdg.Size = new System.Drawing.Size(591, 251);
             this.dgvdsdg.TabIndex = 3;
+            this.dgvdsdg.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvdsdg_RowEnter);
             // 
             // dgvma
             // 
@@ -278,6 +253,7 @@
             this.txtma.Name = "txtma";
             this.txtma.Size = new System.Drawing.Size(178, 26);
             this.txtma.TabIndex = 10;
+            this.txtma.TextChanged += new System.EventHandler(this.txtma_TextChanged);
             // 
             // label19
             // 
@@ -358,6 +334,40 @@
             this.label11.TabIndex = 0;
             this.label11.Text = "Reader ID";
             // 
+            // dgvchitiet
+            // 
+            this.dgvchitiet.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvchitiet.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.masach,
+            this.none});
+            this.dgvchitiet.Location = new System.Drawing.Point(17, 25);
+            this.dgvchitiet.Name = "dgvchitiet";
+            this.dgvchitiet.Size = new System.Drawing.Size(293, 247);
+            this.dgvchitiet.TabIndex = 27;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.dgvchitiet);
+            this.groupBox1.Location = new System.Drawing.Point(664, 211);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(335, 307);
+            this.groupBox1.TabIndex = 28;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Chi tiết mượn sách";
+            // 
+            // masach
+            // 
+            this.masach.DataPropertyName = "Masach";
+            this.masach.HeaderText = "Mã sách";
+            this.masach.Name = "masach";
+            // 
+            // none
+            // 
+            this.none.DataPropertyName = "tongSM";
+            this.none.HeaderText = "Số lượng mượn";
+            this.none.Name = "none";
+            this.none.Width = 150;
+            // 
             // Reader
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -368,11 +378,12 @@
             this.Controls.Add(this.paneldg);
             this.Name = "Reader";
             this.Text = "INFORMATION OF BOOK";
+            this.Load += new System.EventHandler(this.Form3_Load);
             this.paneldg.ResumeLayout(false);
             this.paneldg.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvchitiet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvdsdg)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvchitiet)).EndInit();
+            this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
