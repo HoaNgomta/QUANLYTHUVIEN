@@ -106,6 +106,7 @@
             this.button5.TabIndex = 46;
             this.button5.Text = "Exit";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -117,10 +118,12 @@
             this.button4.TabIndex = 45;
             this.button4.Text = "Find";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button3.Image = global::QL_THUVIEN2.Properties.Resources.folder_remove;
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button3.Location = new System.Drawing.Point(734, 312);
             this.button3.Name = "button3";
@@ -129,6 +132,7 @@
             this.button3.Text = "Return Book";
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // textBox1
             // 
@@ -136,6 +140,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(124, 26);
             this.textBox1.TabIndex = 43;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label3
             // 
@@ -182,6 +187,7 @@
             this.pnmanv.Name = "pnmanv";
             this.pnmanv.Size = new System.Drawing.Size(179, 27);
             this.pnmanv.TabIndex = 39;
+            this.pnmanv.SelectedIndexChanged += new System.EventHandler(this.pnmanv_SelectedIndexChanged);
             // 
             // label1
             // 
@@ -198,6 +204,7 @@
             // 
             this.button2.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button2.Image = global::QL_THUVIEN2.Properties.Resources.rewind;
             this.button2.Location = new System.Drawing.Point(734, 476);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(136, 59);
@@ -205,11 +212,13 @@
             this.button2.Text = "Exit";
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button1.Image = global::QL_THUVIEN2.Properties.Resources.page_accept;
             this.button1.Location = new System.Drawing.Point(734, 389);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(136, 59);
@@ -217,6 +226,7 @@
             this.button1.Text = "Update";
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pnphat
             // 
@@ -263,6 +273,8 @@
             this.dgvpn1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvpn1.Size = new System.Drawing.Size(674, 255);
             this.dgvpn1.TabIndex = 10;
+            this.dgvpn1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvpn1_CellClick);
+            this.dgvpn1.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvpn1_RowEnter);
             // 
             // dataGridViewTextBoxColumn1
             // 
@@ -350,6 +362,7 @@
             this.Name = "PhieuTra";
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.Text = "RETURN BOOK";
+            this.Load += new System.EventHandler(this.Form7_Load);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvpn1)).EndInit();
