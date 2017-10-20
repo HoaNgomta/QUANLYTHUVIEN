@@ -82,7 +82,7 @@
             // button2
             // 
             this.button2.Anchor = System.Windows.Forms.AnchorStyles.Right;
-          //  this.button2.Image = global::QL_THUVIEN2.Properties.Resources.rewind1;
+            this.button2.Image = global::QL_THUVIEN2.Properties.Resources.rewind1;
             this.button2.Location = new System.Drawing.Point(420, 150);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(113, 56);
@@ -90,7 +90,7 @@
             this.button2.Text = "Exit";
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button2.UseVisualStyleBackColor = true;
-     //       this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // dgv
             // 
@@ -103,7 +103,7 @@
             this.dgv.Name = "dgv";
             this.dgv.Size = new System.Drawing.Size(534, 223);
             this.dgv.TabIndex = 8;
-       //     this.dgv.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_RowEnter);
+            this.dgv.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_RowEnter);
             // 
             // Column1
             // 
@@ -121,7 +121,7 @@
             // bttqlnvxoa
             // 
             this.bttqlnvxoa.Anchor = System.Windows.Forms.AnchorStyles.Right;
-     //       this.bttqlnvxoa.Image = global::QL_THUVIEN2.Properties.Resources.window_remove;
+            this.bttqlnvxoa.Image = global::QL_THUVIEN2.Properties.Resources.window_remove;
             this.bttqlnvxoa.Location = new System.Drawing.Point(28, 165);
             this.bttqlnvxoa.Name = "bttqlnvxoa";
             this.bttqlnvxoa.Size = new System.Drawing.Size(134, 55);
@@ -129,12 +129,12 @@
             this.bttqlnvxoa.Text = "Delete";
             this.bttqlnvxoa.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.bttqlnvxoa.UseVisualStyleBackColor = true;
-       //     this.bttqlnvxoa.Click += new System.EventHandler(this.bttqlnvxoa_Click);
+            this.bttqlnvxoa.Click += new System.EventHandler(this.bttqlnvxoa_Click);
             // 
             // button1
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.Right;
-         //   this.button1.Image = global::QL_THUVIEN2.Properties.Resources.window_edit;
+            this.button1.Image = global::QL_THUVIEN2.Properties.Resources.window_edit;
             this.button1.Location = new System.Drawing.Point(28, 94);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(134, 62);
@@ -142,12 +142,12 @@
             this.button1.Text = "Edit";
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button1.UseVisualStyleBackColor = true;
-          //  this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // bttthemmoi
             // 
             this.bttthemmoi.Anchor = System.Windows.Forms.AnchorStyles.Right;
-     //       this.bttthemmoi.Image = global::QL_THUVIEN2.Properties.Resources.window_add;
+            this.bttthemmoi.Image = global::QL_THUVIEN2.Properties.Resources.window_add;
             this.bttthemmoi.Location = new System.Drawing.Point(29, 25);
             this.bttthemmoi.Name = "bttthemmoi";
             this.bttthemmoi.Size = new System.Drawing.Size(133, 56);
@@ -155,7 +155,7 @@
             this.bttthemmoi.Text = "Add";
             this.bttthemmoi.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.bttthemmoi.UseVisualStyleBackColor = true;
-     //       this.bttthemmoi.Click += new System.EventHandler(this.bttthemmoi_Click);
+            this.bttthemmoi.Click += new System.EventHandler(this.bttthemmoi_Click);
             // 
             // label2
             // 
@@ -189,7 +189,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "Category";
             this.Text = "Category";
-          //  this.Load += new System.EventHandler(this.Form9_Load);
+            this.Load += new System.EventHandler(this.Form9_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).EndInit();
@@ -213,4 +213,3 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dgvpn1madg;
     }
 }
-
