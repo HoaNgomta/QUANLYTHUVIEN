@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TTNXB));
             this.paneldg = new System.Windows.Forms.Panel();
             this.txtsdt = new System.Windows.Forms.TextBox();
             this.txtdiachi = new System.Windows.Forms.TextBox();
@@ -74,6 +75,7 @@
             this.paneldg.Name = "paneldg";
             this.paneldg.Size = new System.Drawing.Size(773, 499);
             this.paneldg.TabIndex = 5;
+            this.paneldg.Paint += new System.Windows.Forms.PaintEventHandler(this.paneldg_Paint);
             // 
             // txtsdt
             // 
@@ -110,6 +112,7 @@
             // button2
             // 
             this.button2.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.button2.Image = global::QL_THUVIEN2.Properties.Resources.rewind2;
             this.button2.Location = new System.Drawing.Point(608, 429);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(106, 56);
@@ -117,10 +120,12 @@
             this.button2.Text = "Exit";
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // bttqlnvxoa
             // 
             this.bttqlnvxoa.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.bttqlnvxoa.Image = global::QL_THUVIEN2.Properties.Resources.remove2;
             this.bttqlnvxoa.Location = new System.Drawing.Point(440, 429);
             this.bttqlnvxoa.Name = "bttqlnvxoa";
             this.bttqlnvxoa.Size = new System.Drawing.Size(106, 56);
@@ -128,10 +133,12 @@
             this.bttqlnvxoa.Text = "Delete";
             this.bttqlnvxoa.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.bttqlnvxoa.UseVisualStyleBackColor = true;
+            this.bttqlnvxoa.Click += new System.EventHandler(this.bttqlnvxoa_Click);
             // 
             // button1
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.button1.Image = global::QL_THUVIEN2.Properties.Resources.comment_edit;
             this.button1.Location = new System.Drawing.Point(240, 429);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(106, 56);
@@ -139,10 +146,12 @@
             this.button1.Text = "Edit";
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // bttthem
             // 
             this.bttthem.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.bttthem.Image = global::QL_THUVIEN2.Properties.Resources.add2;
             this.bttthem.Location = new System.Drawing.Point(42, 429);
             this.bttthem.Name = "bttthem";
             this.bttthem.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -151,6 +160,7 @@
             this.bttthem.Text = "Add";
             this.bttthem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.bttthem.UseVisualStyleBackColor = true;
+            this.bttthem.Click += new System.EventHandler(this.bttttcnluu_Click);
             // 
             // dgvnxb
             // 
@@ -168,6 +178,7 @@
             this.dgvnxb.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvnxb.Size = new System.Drawing.Size(768, 226);
             this.dgvnxb.TabIndex = 3;
+            this.dgvnxb.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvnxb_RowEnter);
             // 
             // dgvmanxb
             // 
@@ -254,11 +265,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(773, 499);
             this.Controls.Add(this.paneldg);
             this.Name = "TTNXB";
             this.Text = "INFORMATION OF PUBLISHER";
+            this.Load += new System.EventHandler(this.Form5_Load);
             this.paneldg.ResumeLayout(false);
             this.paneldg.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvnxb)).EndInit();
