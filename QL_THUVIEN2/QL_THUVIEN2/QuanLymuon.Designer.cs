@@ -133,6 +133,7 @@
             this.button7.TabIndex = 12;
             this.button7.Text = "Exit";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // textBox1
             // 
@@ -149,6 +150,7 @@
             this.button6.TabIndex = 10;
             this.button6.Text = "Find";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // groupBox1
             // 
@@ -177,6 +179,7 @@
             // 
             this.button9.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.button9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button9.Image = global::QL_THUVIEN2.Properties.Resources.page_delete;
             this.button9.Location = new System.Drawing.Point(10, 143);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(127, 59);
@@ -184,11 +187,13 @@
             this.button9.Text = "Delete";
             this.button9.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button2
             // 
             this.button2.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button2.Image = global::QL_THUVIEN2.Properties.Resources.rewind;
             this.button2.Location = new System.Drawing.Point(7, 204);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(130, 56);
@@ -196,18 +201,21 @@
             this.button2.Text = "Exit";
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // bttthemmoi
             // 
             this.bttthemmoi.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.bttthemmoi.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.bttthemmoi.Location = new System.Drawing.Point(0, 0);
+            this.bttthemmoi.Image = global::QL_THUVIEN2.Properties.Resources.page_add;
+            this.bttthemmoi.Location = new System.Drawing.Point(7, 21);
             this.bttthemmoi.Name = "bttthemmoi";
             this.bttthemmoi.Size = new System.Drawing.Size(130, 58);
             this.bttthemmoi.TabIndex = 23;
             this.bttthemmoi.Text = "Add";
             this.bttthemmoi.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.bttthemmoi.UseVisualStyleBackColor = true;
+            this.bttthemmoi.Click += new System.EventHandler(this.bttthemmoi_Click);
             // 
             // pn1mapm
             // 
@@ -215,6 +223,7 @@
             this.pn1mapm.Name = "pn1mapm";
             this.pn1mapm.Size = new System.Drawing.Size(132, 26);
             this.pn1mapm.TabIndex = 4;
+            this.pn1mapm.TextChanged += new System.EventHandler(this.pn1maphieu_TextChanged);
             // 
             // label4
             // 
@@ -290,6 +299,7 @@
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button1.Image = global::QL_THUVIEN2.Properties.Resources.page_edit2;
             this.button1.Location = new System.Drawing.Point(7, 85);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(130, 58);
@@ -297,6 +307,7 @@
             this.button1.Text = "Edit";
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // dgvpn1
             // 
@@ -312,6 +323,7 @@
             this.dgvpn1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvpn1.Size = new System.Drawing.Size(528, 151);
             this.dgvpn1.TabIndex = 8;
+            this.dgvpn1.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvpn1_RowEnter);
             // 
             // Column1
             // 
@@ -382,6 +394,8 @@
             this.dgvpn2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvpn2.Size = new System.Drawing.Size(611, 189);
             this.dgvpn2.TabIndex = 10;
+           // this.dgvpn2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvpn2_CellContentClick);
+            this.dgvpn2.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvpn2_RowEnter);
             // 
             // Column4
             // 
@@ -434,6 +448,7 @@
             // 
             this.button8.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.button8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button8.Image = global::QL_THUVIEN2.Properties.Resources.folder_edit2;
             this.button8.Location = new System.Drawing.Point(6, 169);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(138, 62);
@@ -441,10 +456,12 @@
             this.button8.Text = "Update";
             this.button8.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button4
             // 
             this.button4.ForeColor = System.Drawing.Color.Black;
+            this.button4.Image = global::QL_THUVIEN2.Properties.Resources.folder_add1;
             this.button4.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.button4.Location = new System.Drawing.Point(6, 29);
             this.button4.Name = "button4";
@@ -453,6 +470,7 @@
             this.button4.Text = "Borrow book";
             this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // txtsdsachmuon
             // 
@@ -460,6 +478,7 @@
             this.txtsdsachmuon.Name = "txtsdsachmuon";
             this.txtsdsachmuon.Size = new System.Drawing.Size(46, 26);
             this.txtsdsachmuon.TabIndex = 30;
+       //     this.txtsdsachmuon.TextChanged += new System.EventHandler(this.txtsdsachmuon_TextChanged);
             // 
             // label5
             // 
@@ -475,6 +494,7 @@
             // 
             this.button5.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.button5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button5.Image = global::QL_THUVIEN2.Properties.Resources.folder_remove;
             this.button5.Location = new System.Drawing.Point(6, 96);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(138, 62);
@@ -482,11 +502,13 @@
             this.button5.Text = "Delete";
             this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button3
             // 
             this.button3.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.button3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button3.Image = global::QL_THUVIEN2.Properties.Resources.folder_add1;
             this.button3.Location = new System.Drawing.Point(90, -236);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(105, 69);
@@ -513,6 +535,7 @@
             this.pn2masach.Name = "pn2masach";
             this.pn2masach.Size = new System.Drawing.Size(118, 27);
             this.pn2masach.TabIndex = 8;
+        //    this.pn2masach.SelectedIndexChanged += new System.EventHandler(this.pn2masach_SelectedIndexChanged_1);
             // 
             // label7
             // 
@@ -619,6 +642,8 @@
             this.dataGridView2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView2.Size = new System.Drawing.Size(617, 121);
             this.dataGridView2.TabIndex = 14;
+         //   this.dataGridView2.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellClick);
+           // this.dataGridView2.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_RowEnter);
             // 
             // Column13
             // 
@@ -695,6 +720,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "QuanLymuon";
             this.Text = "BORROW MANAGEMENT";
+            this.Load += new System.EventHandler(this.Form6_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
