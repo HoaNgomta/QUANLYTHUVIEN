@@ -9,3 +9,4 @@ c:\users\laptop88t\documents\visual studio 2015\Projects\QL_THUVIEN2\QL_THUVIEN2
 c:\users\laptop88t\documents\visual studio 2015\Projects\QL_THUVIEN2\QL_THUVIEN2\obj\Debug\QL_THUVIEN2.Reader.resources
 c:\users\laptop88t\documents\visual studio 2015\Projects\QL_THUVIEN2\QL_THUVIEN2\obj\Debug\QL_THUVIEN2.csproj.GenerateResource.Cache
 C:\Users\Laptop88T\Desktop\TTN\QL_THUVIEN2\QL_THUVIEN2\bin\Debug\QL_THUVIEN2.exe.config
+D:\github\QUANLYTHUVIEN\QL_THUVIEN2\QL_THUVIEN2\bin\Debug\QL_THUVIEN2.exe.config
