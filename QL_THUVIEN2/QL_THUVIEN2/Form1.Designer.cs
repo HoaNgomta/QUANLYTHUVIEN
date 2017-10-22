@@ -174,7 +174,7 @@
             // 
             this.bttdndangnhap.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bttdndangnhap.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bttdndangnhap.Image = global::QL_THUVIEN2.Properties.Resources.unlock;
+     //       this.bttdndangnhap.Image = global::QL_THUVIEN2.Properties.Resources.unlock;
             this.bttdndangnhap.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.bttdndangnhap.Location = new System.Drawing.Point(300, 7);
             this.bttdndangnhap.Name = "bttdndangnhap";
@@ -222,7 +222,7 @@
             // 
             // button5
             // 
-            this.button5.Image = global::QL_THUVIEN2.Properties.Resources.business_user_edit;
+          //  this.button5.Image = global::QL_THUVIEN2.Properties.Resources.business_user_edit;
             this.button5.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button5.Location = new System.Drawing.Point(89, 5);
             this.button5.Name = "button5";
@@ -248,7 +248,7 @@
             // 
             // button3
             // 
-            this.button3.Image = global::QL_THUVIEN2.Properties.Resources.delete;
+          //  this.button3.Image = global::QL_THUVIEN2.Properties.Resources.delete;
             this.button3.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button3.Location = new System.Drawing.Point(250, 2);
             this.button3.Name = "button3";
@@ -262,7 +262,7 @@
             // 
             // button2
             // 
-            this.button2.Image = global::QL_THUVIEN2.Properties.Resources._lock;
+         //   this.button2.Image = global::QL_THUVIEN2.Properties.Resources._lock;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button2.Location = new System.Drawing.Point(172, 5);
             this.button2.Name = "button2";
@@ -277,7 +277,7 @@
             // bttdangnhap
             // 
             this.bttdangnhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bttdangnhap.Image = global::QL_THUVIEN2.Properties.Resources.unlock;
+        //    this.bttdangnhap.Image = global::QL_THUVIEN2.Properties.Resources.unlock;
             this.bttdangnhap.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.bttdangnhap.Location = new System.Drawing.Point(7, 4);
             this.bttdangnhap.Name = "bttdangnhap";
@@ -317,7 +317,7 @@
             // 
             // button4
             // 
-            this.button4.Image = global::QL_THUVIEN2.Properties.Resources.window_search;
+         //   this.button4.Image = global::QL_THUVIEN2.Properties.Resources.window_search;
             this.button4.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button4.Location = new System.Drawing.Point(171, 4);
             this.button4.Name = "button4";
@@ -343,7 +343,7 @@
             // 
             // button11
             // 
-            this.button11.Image = global::QL_THUVIEN2.Properties.Resources.home_search;
+        //    this.button11.Image = global::QL_THUVIEN2.Properties.Resources.home_search;
             this.button11.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button11.Location = new System.Drawing.Point(89, 4);
             this.button11.Name = "button11";
@@ -357,7 +357,7 @@
             // 
             // button13
             // 
-            this.button13.Image = global::QL_THUVIEN2.Properties.Resources.folder_search;
+      //      this.button13.Image = global::QL_THUVIEN2.Properties.Resources.folder_search;
             this.button13.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button13.Location = new System.Drawing.Point(3, 4);
             this.button13.Name = "button13";
@@ -391,7 +391,7 @@
             // 
             // button12
             // 
-            this.button12.Image = global::QL_THUVIEN2.Properties.Resources.users__2_;
+          //  this.button12.Image = global::QL_THUVIEN2.Properties.Resources.users__2_;
             this.button12.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button12.Location = new System.Drawing.Point(2, 3);
             this.button12.Name = "button12";
@@ -418,7 +418,7 @@
             // 
             // button6
             // 
-            this.button6.Image = global::QL_THUVIEN2.Properties.Resources.business_user;
+       //     this.button6.Image = global::QL_THUVIEN2.Properties.Resources.business_user;
             this.button6.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button6.Location = new System.Drawing.Point(171, 3);
             this.button6.Name = "button6";
@@ -444,7 +444,7 @@
             // 
             // button7
             // 
-            this.button7.Image = global::QL_THUVIEN2.Properties.Resources.business_user;
+          //  this.button7.Image = global::QL_THUVIEN2.Properties.Resources.business_user;
             this.button7.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button7.Location = new System.Drawing.Point(85, 1);
             this.button7.Name = "button7";
@@ -458,7 +458,7 @@
             // 
             // button8
             // 
-            this.button8.Image = global::QL_THUVIEN2.Properties.Resources.process_lock;
+           // this.button8.Image = global::QL_THUVIEN2.Properties.Resources.process_lock;
             this.button8.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button8.Location = new System.Drawing.Point(-2, 3);
             this.button8.Name = "button8";
@@ -504,7 +504,7 @@
             // 
             // button15
             // 
-            this.button15.Image = global::QL_THUVIEN2.Properties.Resources.page_info;
+         //   this.button15.Image = global::QL_THUVIEN2.Properties.Resources.page_info;
             this.button15.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button15.Location = new System.Drawing.Point(89, 4);
             this.button15.Name = "button15";
@@ -517,7 +517,7 @@
             // 
             // button16
             // 
-            this.button16.Image = global::QL_THUVIEN2.Properties.Resources.page_edit;
+       //     this.button16.Image = global::QL_THUVIEN2.Properties.Resources.page_edit;
             this.button16.Location = new System.Drawing.Point(7, 3);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(76, 73);
@@ -561,7 +561,7 @@
             // 
             // button21
             // 
-            this.button21.Image = global::QL_THUVIEN2.Properties.Resources.window_search;
+       //     this.button21.Image = global::QL_THUVIEN2.Properties.Resources.window_search;
             this.button21.Location = new System.Drawing.Point(7, 3);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(76, 73);
@@ -597,7 +597,7 @@
             // 
             this.button9.BackColor = System.Drawing.Color.Ivory;
             this.button9.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.Image = global::QL_THUVIEN2.Properties.Resources.comment_edit;
+         //   this.button9.Image = global::QL_THUVIEN2.Properties.Resources.comment_edit;
             this.button9.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button9.Location = new System.Drawing.Point(6, 23);
             this.button9.Name = "button9";
@@ -662,7 +662,7 @@
             // bttqlnvxoa
             // 
             this.bttqlnvxoa.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.bttqlnvxoa.Image = global::QL_THUVIEN2.Properties.Resources.business_user_delete;
+        //    this.bttqlnvxoa.Image = global::QL_THUVIEN2.Properties.Resources.business_user_delete;
             this.bttqlnvxoa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bttqlnvxoa.Location = new System.Drawing.Point(586, 454);
             this.bttqlnvxoa.Name = "bttqlnvxoa";
@@ -677,7 +677,7 @@
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button1.Image = global::QL_THUVIEN2.Properties.Resources.business_user_edit;
+         //   this.button1.Image = global::QL_THUVIEN2.Properties.Resources.business_user_edit;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.Location = new System.Drawing.Point(319, 454);
             this.button1.Name = "button1";
@@ -860,7 +860,7 @@
             // 
             // panel3
             // 
-            this.panel3.BackgroundImage = global::QL_THUVIEN2.Properties.Resources.ung_dung_thiet_bi_ma_vach_vao_thu_vien;
+         //   this.panel3.BackgroundImage = global::QL_THUVIEN2.Properties.Resources.ung_dung_thiet_bi_ma_vach_vao_thu_vien;
             this.panel3.Controls.Add(this.paneldsnv);
             this.panel3.Location = new System.Drawing.Point(178, 139);
             this.panel3.Name = "panel3";

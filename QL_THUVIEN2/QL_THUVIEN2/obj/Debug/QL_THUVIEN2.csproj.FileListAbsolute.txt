@@ -9,3 +9,23 @@ c:\users\laptop88t\documents\visual studio 2015\Projects\QL_THUVIEN2\QL_THUVIEN2
 c:\users\laptop88t\documents\visual studio 2015\Projects\QL_THUVIEN2\QL_THUVIEN2\obj\Debug\QL_THUVIEN2.Reader.resources
 c:\users\laptop88t\documents\visual studio 2015\Projects\QL_THUVIEN2\QL_THUVIEN2\obj\Debug\QL_THUVIEN2.csproj.GenerateResource.Cache
 C:\Users\Laptop88T\Desktop\TTN\QL_THUVIEN2\QL_THUVIEN2\bin\Debug\QL_THUVIEN2.exe.config
+E:\ThucTapNhom\QUANLYTHUVIEN\QL_THUVIEN2\QL_THUVIEN2\bin\Debug\QL_THUVIEN2.exe.config
+E:\ThucTapNhom\QUANLYTHUVIEN\QL_THUVIEN2\QL_THUVIEN2\bin\Debug\QL_THUVIEN2.exe
+E:\ThucTapNhom\QUANLYTHUVIEN\QL_THUVIEN2\QL_THUVIEN2\bin\Debug\QL_THUVIEN2.pdb
+E:\ThucTapNhom\QUANLYTHUVIEN\QL_THUVIEN2\QL_THUVIEN2\obj\Debug\QL_THUVIEN2.csprojResolveAssemblyReference.cache
+E:\ThucTapNhom\QUANLYTHUVIEN\QL_THUVIEN2\QL_THUVIEN2\obj\Debug\QL_THUVIEN2.Category.resources
+E:\ThucTapNhom\QUANLYTHUVIEN\QL_THUVIEN2\QL_THUVIEN2\obj\Debug\QL_THUVIEN2.Form1.resources
+E:\ThucTapNhom\QUANLYTHUVIEN\QL_THUVIEN2\QL_THUVIEN2\obj\Debug\QL_THUVIEN2.FormTaoTaiKhoan.resources
+E:\ThucTapNhom\QUANLYTHUVIEN\QL_THUVIEN2\QL_THUVIEN2\obj\Debug\QL_THUVIEN2.PhieuTra.resources
+E:\ThucTapNhom\QUANLYTHUVIEN\QL_THUVIEN2\QL_THUVIEN2\obj\Debug\QL_THUVIEN2.Properties.Resources.resources
+E:\ThucTapNhom\QUANLYTHUVIEN\QL_THUVIEN2\QL_THUVIEN2\obj\Debug\QL_THUVIEN2.QuanLymuon.resources
+E:\ThucTapNhom\QUANLYTHUVIEN\QL_THUVIEN2\QL_THUVIEN2\obj\Debug\QL_THUVIEN2.Reader.resources
+E:\ThucTapNhom\QUANLYTHUVIEN\QL_THUVIEN2\QL_THUVIEN2\obj\Debug\QL_THUVIEN2.Rules.resources
+E:\ThucTapNhom\QUANLYTHUVIEN\QL_THUVIEN2\QL_THUVIEN2\obj\Debug\QL_THUVIEN2.thongtincanhan.resources
+E:\ThucTapNhom\QUANLYTHUVIEN\QL_THUVIEN2\QL_THUVIEN2\obj\Debug\QL_THUVIEN2.ThongTinSach.resources
+E:\ThucTapNhom\QUANLYTHUVIEN\QL_THUVIEN2\QL_THUVIEN2\obj\Debug\QL_THUVIEN2.TimKiemSach.resources
+E:\ThucTapNhom\QUANLYTHUVIEN\QL_THUVIEN2\QL_THUVIEN2\obj\Debug\QL_THUVIEN2.TTNXB.resources
+E:\ThucTapNhom\QUANLYTHUVIEN\QL_THUVIEN2\QL_THUVIEN2\obj\Debug\QL_THUVIEN2.TTTaiKhoan.resources
+E:\ThucTapNhom\QUANLYTHUVIEN\QL_THUVIEN2\QL_THUVIEN2\obj\Debug\QL_THUVIEN2.csproj.GenerateResource.Cache
+E:\ThucTapNhom\QUANLYTHUVIEN\QL_THUVIEN2\QL_THUVIEN2\obj\Debug\QL_THUVIEN2.exe
+E:\ThucTapNhom\QUANLYTHUVIEN\QL_THUVIEN2\QL_THUVIEN2\obj\Debug\QL_THUVIEN2.pdb

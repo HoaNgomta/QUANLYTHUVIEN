@@ -95,7 +95,7 @@
             // button2
             // 
             this.button2.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.button2.Image = global::QL_THUVIEN2.Properties.Resources.rewind;
+        //    this.button2.Image = global::QL_THUVIEN2.Properties.Resources.rewind;
             this.button2.Location = new System.Drawing.Point(649, 515);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(106, 59);
@@ -130,7 +130,7 @@
             // bttxoa
             // 
             this.bttxoa.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.bttxoa.Image = global::QL_THUVIEN2.Properties.Resources.users_delete1;
+         //   this.bttxoa.Image = global::QL_THUVIEN2.Properties.Resources.users_delete1;
             this.bttxoa.Location = new System.Drawing.Point(479, 515);
             this.bttxoa.Name = "bttxoa";
             this.bttxoa.Size = new System.Drawing.Size(106, 59);
@@ -143,7 +143,7 @@
             // bttsua
             // 
             this.bttsua.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.bttsua.Image = global::QL_THUVIEN2.Properties.Resources.users_edit;
+       //     this.bttsua.Image = global::QL_THUVIEN2.Properties.Resources.users_edit;
             this.bttsua.Location = new System.Drawing.Point(298, 515);
             this.bttsua.Name = "bttsua";
             this.bttsua.Size = new System.Drawing.Size(106, 59);
@@ -156,7 +156,7 @@
             // bttthemmoi
             // 
             this.bttthemmoi.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.bttthemmoi.Image = global::QL_THUVIEN2.Properties.Resources.users_add;
+           // this.bttthemmoi.Image = global::QL_THUVIEN2.Properties.Resources.users_add;
             this.bttthemmoi.Location = new System.Drawing.Point(110, 515);
             this.bttthemmoi.Name = "bttthemmoi";
             this.bttthemmoi.Size = new System.Drawing.Size(129, 59);

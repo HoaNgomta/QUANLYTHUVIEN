@@ -16,7 +16,7 @@ namespace QL_THUVIEN2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Category());
+            Application.Run(new Form1());
         }
     }
 }

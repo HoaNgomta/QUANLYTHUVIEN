@@ -179,7 +179,7 @@
             // 
             this.button9.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.button9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button9.Image = global::QL_THUVIEN2.Properties.Resources.page_delete;
+        //    this.button9.Image = global::QL_THUVIEN2.Properties.Resources.page_delete;
             this.button9.Location = new System.Drawing.Point(10, 143);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(127, 59);
@@ -193,7 +193,7 @@
             // 
             this.button2.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button2.Image = global::QL_THUVIEN2.Properties.Resources.rewind;
+       //     this.button2.Image = global::QL_THUVIEN2.Properties.Resources.rewind;
             this.button2.Location = new System.Drawing.Point(7, 204);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(130, 56);
@@ -207,7 +207,7 @@
             // 
             this.bttthemmoi.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.bttthemmoi.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.bttthemmoi.Image = global::QL_THUVIEN2.Properties.Resources.page_add;
+    //        this.bttthemmoi.Image = global::QL_THUVIEN2.Properties.Resources.page_add;
             this.bttthemmoi.Location = new System.Drawing.Point(7, 21);
             this.bttthemmoi.Name = "bttthemmoi";
             this.bttthemmoi.Size = new System.Drawing.Size(130, 58);
@@ -299,7 +299,7 @@
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Image = global::QL_THUVIEN2.Properties.Resources.page_edit2;
+          //  this.button1.Image = global::QL_THUVIEN2.Properties.Resources.page_edit2;
             this.button1.Location = new System.Drawing.Point(7, 85);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(130, 58);
@@ -448,7 +448,7 @@
             // 
             this.button8.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.button8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button8.Image = global::QL_THUVIEN2.Properties.Resources.folder_edit2;
+         //   this.button8.Image = global::QL_THUVIEN2.Properties.Resources.folder_edit2;
             this.button8.Location = new System.Drawing.Point(6, 169);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(138, 62);
@@ -461,7 +461,7 @@
             // button4
             // 
             this.button4.ForeColor = System.Drawing.Color.Black;
-            this.button4.Image = global::QL_THUVIEN2.Properties.Resources.folder_add1;
+          //  this.button4.Image = global::QL_THUVIEN2.Properties.Resources.folder_add1;
             this.button4.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.button4.Location = new System.Drawing.Point(6, 29);
             this.button4.Name = "button4";
@@ -494,7 +494,7 @@
             // 
             this.button5.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.button5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button5.Image = global::QL_THUVIEN2.Properties.Resources.folder_remove;
+          //   this.button5.Image = global::QL_THUVIEN2.Properties.Resources.folder_remove;
             this.button5.Location = new System.Drawing.Point(6, 96);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(138, 62);
@@ -508,7 +508,7 @@
             // 
             this.button3.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.button3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button3.Image = global::QL_THUVIEN2.Properties.Resources.folder_add1;
+        //    this.button3.Image = global::QL_THUVIEN2.Properties.Resources.folder_add1;
             this.button3.Location = new System.Drawing.Point(90, -236);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(105, 69);

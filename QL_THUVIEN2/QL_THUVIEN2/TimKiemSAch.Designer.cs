@@ -207,7 +207,7 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Image = global::QL_THUVIEN2.Properties.Resources.folder_delete;
+         //   this.button2.Image = global::QL_THUVIEN2.Properties.Resources.folder_delete;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button2.Location = new System.Drawing.Point(6, 86);
             this.button2.Name = "button2";
@@ -221,7 +221,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Image = global::QL_THUVIEN2.Properties.Resources.folder_search;
+      //      this.button1.Image = global::QL_THUVIEN2.Properties.Resources.folder_search;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.Location = new System.Drawing.Point(6, 19);
             this.button1.Name = "button1";
@@ -402,7 +402,7 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Image = global::QL_THUVIEN2.Properties.Resources.folder_remove;
+         //   this.button3.Image = global::QL_THUVIEN2.Properties.Resources.folder_remove;
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button3.Location = new System.Drawing.Point(51, 70);
             this.button3.Name = "button3";
@@ -414,7 +414,7 @@
             // 
             // button4
             // 
-            this.button4.Image = global::QL_THUVIEN2.Properties.Resources.folder_search;
+        //    this.button4.Image = global::QL_THUVIEN2.Properties.Resources.folder_search;
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button4.Location = new System.Drawing.Point(51, 15);
             this.button4.Name = "button4";

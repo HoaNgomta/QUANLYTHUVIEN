@@ -123,7 +123,7 @@
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button3.Image = global::QL_THUVIEN2.Properties.Resources.folder_remove;
+   //         this.button3.Image = global::QL_THUVIEN2.Properties.Resources.folder_remove;
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button3.Location = new System.Drawing.Point(734, 312);
             this.button3.Name = "button3";
@@ -204,7 +204,7 @@
             // 
             this.button2.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button2.Image = global::QL_THUVIEN2.Properties.Resources.rewind;
+            //this.button2.Image = global::QL_THUVIEN2.Properties.Resources.rewind;
             this.button2.Location = new System.Drawing.Point(734, 476);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(136, 59);
@@ -218,7 +218,7 @@
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button1.Image = global::QL_THUVIEN2.Properties.Resources.page_accept;
+       //     this.button1.Image = global::QL_THUVIEN2.Properties.Resources.page_accept;
             this.button1.Location = new System.Drawing.Point(734, 389);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(136, 59);

@@ -76,7 +76,7 @@
             // 
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button5.Image = global::QL_THUVIEN2.Properties.Resources.business_user_edit;
+         //   this.button5.Image = global::QL_THUVIEN2.Properties.Resources.business_user_edit;
             this.button5.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button5.Location = new System.Drawing.Point(31, 33);
             this.button5.Name = "button5";

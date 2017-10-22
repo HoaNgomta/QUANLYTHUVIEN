@@ -58,7 +58,7 @@
             // 
             this.button2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Image = global::QL_THUVIEN2.Properties.Resources.users_delete;
+         //   this.button2.Image = global::QL_THUVIEN2.Properties.Resources.users_delete;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button2.Location = new System.Drawing.Point(307, 304);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
@@ -154,7 +154,7 @@
             // button3
             // 
             this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Image = global::QL_THUVIEN2.Properties.Resources.users_add;
+         //   this.button3.Image = global::QL_THUVIEN2.Properties.Resources.users_add;
             this.button3.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button3.Location = new System.Drawing.Point(192, 304);
             this.button3.Margin = new System.Windows.Forms.Padding(4);
